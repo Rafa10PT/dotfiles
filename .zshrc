@@ -22,6 +22,7 @@ bindkey -s '^[OC' '^[[C'  # right
 
 bindkey -s '^[[1~' '^[[H'  # home
 bindkey -s '^[[4~' '^[[F'  # end
+bindkey -s '^[[Z'  '^I'    # tab
 
 bindkey '^?'      backward-delete-char          # bs         delete one char backward
 bindkey '^[[3~'   delete-char                   # delete     delete one char forward
